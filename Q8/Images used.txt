@@ -1,0 +1,29 @@
+Dog Paw:
+
+https://cdn-icons-png.flaticon.com/512/12/12638.png
+
+Color Palettes Used:
+
+    Olive green:
+
+    Background: #E6E6E6
+    Text: #4B5320
+    Border/Legend title: #808000
+
+    Light brown:
+
+    Background: #A52A2A
+    Text: #BFBFBF
+    Border/Legend title: #E6E6E6
+
+    Light tan:
+
+    Background: #D2B48C
+    Text: #BFBFBF
+    Border/Legend title: #E6E6E6
+
+    Light orange:
+
+    Background: #FFA07A
+    Text: #BFBFBF
+    Border/Legend title: #E6E6E6
