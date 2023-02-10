@@ -1,17 +1,32 @@
-.container {
-    background-color: black;
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    background-color: #E1F2FC;
     width: 100%;
-    height: 255%;
+    height: 92em;
+    top: 0px;
+    z-index: 0;
+    position: absolute;
 }
 
 .header {
-    background-color: #E6E6E6;
-    border: 2px solid #808000;
-    color: #4B5320;
+    margin: auto;
     padding: 20px;
+    position: absolute;
+    width: 95.1%;
+    top: 2%;
+    right: auto;
+    left: 0.5%;
+    background-color: #FAF7F0;
+    border: 5px solid #98A8F8;
+    color: #4B5320;
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 1;
 }
 
 .header_title {
@@ -19,10 +34,10 @@
 }
 
 .side_menu {
-    background-color: #E6E6E6;
-    border: 2px solid #A52A2A;
+    background-color: #BBB6DF;
+    border: 5px solid #98A8F8;
     position: absolute;
-    top: 8em;
+    top: 22%;
     left: 0.5em;
     bottom: 1em;
     width: 200px;
@@ -30,10 +45,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    z-index: 1;
 }
 
 .side-menu-item {
-    width: 100%;
+    width: 200px;
     height: 40px;
     display: flex;
     justify-content: center;
@@ -41,6 +57,7 @@
     color: #665C1E;
     text-align: center;
     font-size: 1rem;
+    z-index: 1;
 }
 
 .side-menu-item:hover {
@@ -54,11 +71,13 @@
 }
 
 .home_page_content {
-    border: 2px solid #FFA07A;
+    border: 5px solid #98A8F8;
+    background-color: white;
     margin-top: 0.8em;
     margin-left: 14em;
     margin-right: 0.5em;
-    top: 16%;
+    top: 7.2em;
+    width: 80.3%;
     height: 177.7%;
     padding: 1em;
     position: absolute;
@@ -79,20 +98,39 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #f7f7f7;
+    background-color: #FAF7F0;
     border-radius: 20px;
     box-shadow: 2px 2px 10px #ccc;
     padding: 10px;
 }
 
 .footer {
-    background-color: #E6E6E6;
-    border: 2px solid #54738E;
+    background-color: #FAF7F0;
+    border: 5px solid #54738E;
     color: black;
     text-align: center;
     padding: 20px;
     z-index: 1;
     position: absolute;
-    top: 90em;
+    top: 86em;
+    left: 0.5em;
     width: 96%;
+}
+
+#first_p {
+    width: 40%;
+    height: 21%;
+    position: absolute;
+    right: 50%;
+    top: 37%;
+    line-height: 250%;
+}
+
+#second_p {
+    width: 40%;
+    height: 21%;
+    position: absolute;
+    right: 55%;
+    top: 37%;
+    line-height:250%;
 }
