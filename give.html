@@ -12,18 +12,18 @@
   </head>
   <body>
     <div class="header">
-      <a href="index.html">
+      <a href="home.html">
         <img class="dog-paw" src="Flaticon_Dog_Paw.png" alt="Dog Paw">
       </a>
       <h1 class="header_title">Whiskers and Wags Adoption Co.</h1>
-      <a href="index.html">
+      <a href="home.html">
         <img class="dog-paw" src="Flaticon_Dog_Paw.png" alt="Dog Paw">
       </a>
     </div>
     <div class="side_menu">
       <ul id="side-menu">
         <li class="side-menu-item">
-          <a href="index.html">Home Page</a>
+          <a href="home.html">Home Page</a>
         </li>
         <li class="side-menu-item">
           <a href="available.html">Browse Available Pets</a>
@@ -47,7 +47,78 @@
       <img src="Kitty.png" alt="Kitty" id="kitty">
     </div>
     <div class="page_content">
-      <h1 id="construction">Page Under Construction!</h1>
+      <div class="give-form">
+        <h1>Pet Adoption Form</h1>
+        <form>
+          <div class="form-group">
+            <label for="petType">Pet Type:</label>
+            <select class="form-control" id="petType">
+              <option>Cat</option>
+              <option>Dog</option>
+            </select>
+          </div>
+          <br>
+          <div class="form-group">
+            <label for="breed">Breed:</label>
+            <input type="text" class="form-control" id="breed" placeholder="Enter breed">
+          </div>
+          <br>
+          <div class="form-group">
+            <label for="age">Age:</label>
+            <select class="form-control" id="age">
+              <option>0-1 year</option>
+              <option>1-2 years</option>
+              <option>2-5 years</option>
+              <option>5+ years</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="gender">Gender:</label>
+            <select class="form-control" id="gender">
+              <option>Male</option>
+              <option>Female</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="dogFriendly">Gets along with other dogs:</label>
+            <select class="form-control" id="dogFriendly">
+              <option>Yes</option>
+              <option>No</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="catFriendly">Gets along with other cats:</label>
+            <select class="form-control" id="catFriendly">
+              <option>Yes</option>
+              <option>No</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="familyFriendly">Suitable for a family with small children:</label>
+            <select class="form-control" id="familyFriendly">
+              <option>Yes</option>
+              <option>No</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="comments">Tell us about your pet:</label>
+            <textarea class="form-control" id="comments" rows="3"></textarea>
+          </div>
+          <br>
+          <div class="form-group">
+            <label for="ownerName">Current Owner's Name:</label>
+            <input type="text" class="form-control" id="ownerName" placeholder="Enter owner's name">
+          </div>
+          <br>
+          <div class="form-group">
+            <label for="ownerEmail">Current Owner's Email:</label>
+            <input type="email" class="form-control" id="ownerEmail" placeholder="Enter owner's email">
+          </div>
+          <br>
+          <button type="submit" class="btn btn-primary">Submit</button>
+          <button type="reset" class="btn btn-secondary">Clear</button>
+        </form>
+      </div>
     </div>
     <div class="peeking_beagle">
       <img src="PeekingBeagle.png" alt="Beagle staring at camera">

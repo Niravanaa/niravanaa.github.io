@@ -1,3 +1,4 @@
+/*Custom font under a free license from https://fontesk.com/pacify-angry-font/ */
 @font-face {
     font-family: myFirstFont;
     src: url(PacifyAngryRegular-DOjXW.woff);
@@ -17,6 +18,8 @@ body {
 }
 
 #dogs-and-cats {
+    position: absolute;
+    top: 0%;
     width: 100%;
 }
 
@@ -113,6 +116,9 @@ body {
     padding: 1em;
     position: absolute;
     z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .peeking_beagle img {
@@ -137,7 +143,8 @@ body {
 
 .footer {
     background-color: #FAF7F0;
-    border: 5px solid #54738E;
+    border: 5px solid #98A8F8;
+    font-size: 20px;
     color: black;
     text-align: center;
     padding: 20px;
@@ -187,16 +194,16 @@ body {
 }
 
 #welcome {
+    position: absolute;
+    top: 28%;
     text-align: center;
-    margin-top: -2em;
     text-shadow: gray 1px 5px 4px;
     width: 100%
 }
 
 #construction {
-    position:relative;
+    position: absolute;
     text-align: center;
-    padding-top: 50%;
 }
 
 #group-of-dogs {
@@ -220,6 +227,21 @@ body {
     right: 10%;
 }
 
+#find-form {
+    background-color: #add8e6;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #888888;
+    color: #333;
+    text-align: center;
+    width: 80%;
+}
+
+#find-form h2 {
+    font-size: 38px;
+    color: #006400;
+    margin-bottom: 20px;
+}
 
 #find-a-pet {
     text-align: center;
@@ -273,5 +295,207 @@ input[type="submit"]:hover,
 input[type="reset"]:hover {
     background-color: #9B7653;
 }
+
+#dog-care-info {
+    background-color: #add8e6;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #888888;
+    color: #333;
+    text-align: center;
+    height: 97%;
+}
+
+#dog-care-info h2 {
+  font-size: 38px;
+  color: #006400;
+  margin-bottom: 20px;
+}
+
+#dog-care-info p {
+  font-size: 18px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.care-element {
+  background-color: #90ee90;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #888888;
+  text-align: left;
+}
+
+.care-element h3 {
+  font-size: 28px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.care-element p {
+  font-size: 18px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+#dog-care-info ul {
+  list-style: none;
+  margin-top: 20px;
+  text-align: center;
+}
+
+#dog-care-info li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+#dog-care-info a {
+  font-size: 18px;
+  color: #000000;
+  text-decoration: none;
+}
+
+#dog-care-info a:hover {
+  font-size: 20px;
+  color: #4f7f4f;
+}
+
+#cat-care-info {
+    background-color: #add8e6;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #888888;
+    color: #333;
+    text-align: center;
+    height: 97%;
+}
+  
+#cat-care-info h2 {
+    font-size: 38px;
+    color: #006400;
+    margin-bottom: 20px;
+}
+  
+#cat-care-info p {
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.care-element {
+    margin-top: 40px;
+    text-align: left;
+}
+  
+.care-element h3 {
+    font-size: 24px;
+    color: #006400;
+    margin-bottom: 10px;
+}
+  
+.care-element p {
+    font-size: 18px;
+    color: #000000;
+}
+  
+#cat-care-info ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 40px;
+    text-align: center;
+}
+  
+#cat-care-info a {
+    font-size: 20px;
+    color: #8b008b;
+    text-decoration: none;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+  
+#cat-care-info a:hover {
+    color: #ff00ff;
+    text-shadow: 1px 1px #ffffff;
+}
+  
+.give-form {
+    padding: 20px;
+    background-color: #ADD8E6;
+    color: #000000;
+    box-shadow: 0px 0px 10px #888888;
+    border-radius: 10px;
+    width: 80%;
+}
+
+.give-form h1 {
+    font-size: 30px;
+    color: #006400;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-control {
+    background-color: #F0E68C;
+    color: #000000;
+    border-radius: 5px;
+    border: 1px solid #000000;
+}
+  
+.btn-primary {
+    background-color: #228B22;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border: 1px solid #228B22;
+    padding: 10px 20px;
+}
+  
+.btn-secondary {
+    background-color: #8B0000;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border: 1px solid #8B0000;
+    padding: 10px 20px;
+}
+
+.contact-info {
+    background-color: #ADD8E6; /* Light blue */
+    color: #000000; /* Black */
+    padding: 20px;
+    box-shadow: 0px 0px 10px #888888;
+    border-radius: 10px;
+    text-align: center;
+    width: 60%;
+    height: 49%;
+  }
+  
+  .contact-info h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-info h3 {
+    font-size: 24px;
+    margin-top: 40px;
+  }
+  
+  .contact-info p {
+    font-size: 24px;
+  }
+
+  .contact-info a {
+    text-decoration: none;
+    color: blue;
+  }
+
+  .contact-info hr {
+    border: 1px solid #888888;
+    width: 60%;
+    margin: 20px auto;
+  }
+  
+  
 
   
